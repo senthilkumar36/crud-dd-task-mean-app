@@ -1,0 +1,6 @@
+# Move to project root
+docker compose build
+
+# Tag your images
+docker tag mean-backend <dockerhub-username>/mean-backend:latest
+docker tag mean-frontend <dockerhub-username>/mean-frontend:latest
