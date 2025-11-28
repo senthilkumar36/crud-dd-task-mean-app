@@ -1,0 +1,7 @@
+Client (Browser:80) 
+        │
+     Nginx (VM:80)
+   ┌─────┴───────┐
+Frontend(4200)  Backend(3000)
+                   │
+                MongoDB (27017)
